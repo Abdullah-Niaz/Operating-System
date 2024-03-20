@@ -1,0 +1,14 @@
+c++
+	g++ -g -o code.exe code.cpp
+	gdb code.exe
+
+	in order to run:
+		./code.exe
+java
+	javac pack/*.java
+	jdb pack.mainFile
+	
+	First Set the breakpoint:
+		stop in pack.mainFile:5
+	in order to run:
+		java -cp . pack/mainFile
