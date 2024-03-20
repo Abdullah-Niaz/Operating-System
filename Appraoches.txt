@@ -5,10 +5,13 @@ c++
 	in order to run:
 		./code.exe
 java
-	javac pack/*.java
+	javac -g pack/*.java
 	jdb pack.mainFile
+	jdb -classpath . pack.mainFile
 	
 	First Set the breakpoint:
 		stop in pack.mainFile:5
 	in order to run:
 		java -cp . pack/mainFile
+
+-g => Debugging Flags
