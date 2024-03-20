@@ -1,0 +1,3 @@
+c++
+	g++ -g -o code.exe code.cpp
+	gdb code.exe
