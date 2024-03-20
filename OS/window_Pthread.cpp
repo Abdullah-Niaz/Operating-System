@@ -3,7 +3,7 @@
 using namespace std;
 
 DWORD WINAPI runner(LPVOID param); // Function prototype for the thread function
-
+ 
 // Global variable shared by the thread(s)
 int sum = 0;
 int main(int argc, char *argv[])

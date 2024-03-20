@@ -4,7 +4,7 @@
 using namespace std;
 
 void *runner(void *param); // Function prototype for the thread function
-
+ 
 // Global variable shared by the thread(s)
 int sum = 0;
 
